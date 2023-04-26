@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Logo from './Logo.png';
 import './App.css';
 import { useState } from 'react';
 import CoverPage from './CoverPage';
@@ -38,16 +38,19 @@ function App() {
 function ImageComponent () {
   return (
     <div className='App-image'>
-      <img src={image} className='image'></img>
+      <img src={Logo} className='image'></img>
     </div>
   )
 }
 function DescriptionComponent () {
   return (
     <div className='App-descript'>
-      <p>
-        This is a placeholder for description section... TO BE CONTINUED
-      </p>
+      <h1>Hello there!</h1>
+      <p>Instructions: For title, choose out of the following: hairstyle, top, bottom, and shoes. Then, browse the internet for the image and copy its image address. Paste that address into the box.</p>
+      <h1>Let's start of with a hairstyle... Pick something modern that stands out in the crowd!</h1>
+      <h1>Then, follow it up with a top... Make sure to focus on the contrast of the shirt... If the hairstyle shows more skin, use dark colors to contrast it!</h1>
+      <h1>Next, time to pick out bottoms... This apparel should only compliment the top and not match it. This should bring out the qualities and designs of the shirt.</h1>
+      <h1>Last piece of the puzzle are the footwear... This is the conclusion to your entire clothing peace. For this, worry about two things: comfort and if it supplements your top. Unlike the bottoms, footwear should match the vibe and design of the top.</h1>
     </div>
   )
 }
